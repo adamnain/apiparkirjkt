@@ -47,7 +47,7 @@ CREATE TABLE `parkirjakarta` (
 --
 
 INSERT INTO `parkirjakarta` (`id`, `nama_tempat_parkir`, `jenis_lokasi_parkir`, `alamat`, `luas_m2`, `kapasita_mobil`, `kapasitas_motor`, `kapasitas_bus_truk`, `picture`, `lat`, `long`) VALUES
-(1, 'Gedung Parkir Istana Pasar Baru (8 Lt)', 'gedung', 'Jln. Pintu Air Raya', '12432', 445, 130, 0, NULL, NULL, NULL),
+(1, 'Gedung Parkir Istana Pasar Baru (8 Lt)', 'gedung', 'Jln. Pintu Air Raya', '12432', 445, 130, 0, `a`, `b`, `c`),
 (2, 'Gedung Parkir Taman Menteng (3 Lt.)', 'gedung', 'Jln. HOS Cokroaminoto No. 9 Jakarta Pusat', '4455', 152, 300, 0, NULL, NULL, NULL),
 (3, 'Pelataran Parkir IRTI Monas', 'pelataran', 'Jln. Medan Merdeka Selatan', '18450', 352, 1250, 12, NULL, NULL, NULL),
 (4, 'Pelataran Ex Gedung Parkir Glodok', 'pelataran', 'Jln. Pintu Besar Selatan No. 1', '4640', 80, 180, 0, NULL, NULL, NULL),
