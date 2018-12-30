@@ -23,7 +23,7 @@ $app->get('/[{name}]', function (Request $request, Response $response, array $ar
 $app->get("/parkir/", function (Request $request, Response $response, $args){
     $sql = "SELECT * FROM parkirjakarta";
     $stmt = $this->db->prepare($sql);
-    $stmt->execute([":id" => $id]);
+    $stmt->execute();
     $result = $stmt->fetchAll();
     return $response->withJson(["status" => "success", "data" => $result], 200);
 });
